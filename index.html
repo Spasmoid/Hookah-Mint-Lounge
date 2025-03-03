@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кальянная Lounge</title>
+    <link rel="stylesheet" href="src/styles/css/slick.css">
+    <link rel="stylesheet" href="src/styles/css/animate.min.css">
+    <link rel="stylesheet" href="src/styles/css/hover-min.css">
+
+    <link rel="stylesheet" href="dist/css/main.min.css">
+
+<!--    <link rel="stylesheet/less" type="text/css" href="styles/main.less">-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/less"></script>-->
+</head>
+<body>
+
+<div class="burger-menu-block">
+    <div class="burger-menu-container">
+        <div class="burger-menu-header">
+            <div class="burger-menu-heading">Меню</div>
+            <div class="burger-menu-action">
+                <a href="#" class="hvr-shrink">
+                    <svg fill="#ffffff" height="17px" width="17px" version="1.1" id="Capa_1"
+                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                         viewBox="0 0 460.775 460.775" xml:space="preserve">
+                        <path d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55
+                            c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55
+                            c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505
+                            c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55
+                            l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719
+                            c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="burger-menu-link">
+            <a href="#" class="hvr-shrink info-link-order">Бронирование столика</a>
+        </div>
+        <div class="burger-menu-link">
+            <a href="#" class="hvr-shrink info-link-menu">Наше меню</a>
+        </div>
+        <div class="burger-menu-link">
+            <a href="#" class="hvr-shrink info-link-halls">3-D тур по кальянной</a>
+        </div>
+        <div class="burger-menu-link">
+            <a href="#" class="hvr-shrink info-link-contacts">Контакты</a>
+        </div>
+        <div class="burger-menu-link">
+            <a href="#" class="hvr-shrink info-link-reviews">Отзывы гостей</a>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="container">
+        <header class="header">
+            <div class="header-left-side">
+                <div class="header-logo hvr-grow">
+                    <a href="#">
+                        <img src="src/images/logo.png" alt="Логотип">
+                    </a>
+                </div>
+                <div class="header-location hvr-rotate">
+                    <a href="https://www.google.com/maps/place/Ulitsa+Il'inskaya,+3,+Nizhnij+Novgorod,+Nizhegorodskaya+oblast',+Russia,+603001/@56.3287303,43.9920764,17z/data=!3m1!4b1!4m6!3m5!1s0x4151d4364aa3afd5:0xd621f8fab5b78dc8!8m2!3d56.3287303!4d43.9946567!16s%2Fg%2F11bw3z9jj0?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D">
+                        <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                             width="16px" height="16px" viewBox="0 0 466.583 466.582"
+                             xml:space="preserve">
+                            <g>
+                                <path d="M233.292,0c-85.1,0-154.334,69.234-154.334,154.333c0,34.275,21.887,90.155,66.908,170.834
+                                    c31.846,57.063,63.168,104.643,64.484,106.64l22.942,34.775l22.941-34.774c1.317-1.998,32.641-49.577,64.483-106.64
+                                    c45.023-80.68,66.908-136.559,66.908-170.834C387.625,69.234,318.391,0,233.292,0z M233.292,233.291c-44.182,0-80-35.817-80-80
+                                    s35.818-80,80-80c44.182,0,80,35.817,80,80S277.473,233.291,233.292,233.291z"/>
+                            </g>
+                        </svg>
+                        <span>Нижний Новгород, Ильинская улица, 3</span>
+                    </a>
+                </div>
+            </div>
+            <div class="header-right-side">
+                <div class="header-phone hvr-buzz">
+                    <a href="tel: +7 (964) 837-73-74">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20px" height="20px">
+                            <path d="M 3.371094 1.042969 L 1.796875 2.617188 C 0.933594 3.480469 0.746094 4.824219 1.363281 5.878906 C 2.050781 7.058594 2.613281 7.929688 4.96875 10.28125 C 7.320313 12.636719 7.960938 12.957031 9.121094 13.636719 C 10.179688 14.253906 11.519531 14.066406 12.378906 13.203125 L 13.957031 11.628906 L 10.910156 8.585938 L 9.671875 9.824219 C 9.523438 9.757813 9.300781 9.640625 9.042969 9.476563 C 8.511719 9.136719 7.832031 8.617188 7.234375 8.015625 C 6.632813 7.417969 6.046875 6.671875 5.640625 6.070313 C 5.441406 5.773438 5.28125 5.503906 5.195313 5.328125 C 5.191406 5.320313 5.191406 5.320313 5.1875 5.3125 L 6.414063 4.085938 Z M 3.371094 2.457031 L 5 4.085938 L 4.285156 4.804688 C 4.136719 4.953125 4.121094 5.117188 4.125 5.210938 C 4.125 5.300781 4.140625 5.363281 4.15625 5.421875 C 4.191406 5.542969 4.238281 5.648438 4.296875 5.773438 C 4.417969 6.015625 4.59375 6.304688 4.8125 6.632813 C 5.25 7.28125 5.867188 8.066406 6.523438 8.726563 C 7.183594 9.382813 7.910156 9.9375 8.507813 10.316406 C 8.804688 10.507813 9.066406 10.652344 9.289063 10.75 C 9.402344 10.800781 9.503906 10.839844 9.625 10.863281 C 9.683594 10.875 9.75 10.882813 9.839844 10.875 C 9.929688 10.871094 10.070313 10.839844 10.195313 10.714844 L 10.910156 10 L 12.542969 11.628906 L 11.671875 12.5 C 11.128906 13.042969 10.289063 13.160156 9.625 12.773438 C 8.445313 12.082031 7.996094 11.898438 5.671875 9.578125 C 3.351563 7.253906 2.90625 6.539063 2.226563 5.375 C 1.839844 4.710938 1.957031 3.871094 2.5 3.328125 Z"/>
+                        </svg>
+                        <span>+7 (964) 837-73-74</span>
+                    </a>
+                </div>
+                <div class="header-schedule">
+                    <div class="header-schedule-time">Вс-Чт 12:00-02:00</div>
+                    <div class="header-schedule-time">Пт-Сб 12:00-06:00</div>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <a href="#">☰</a>
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="main-info">
+                <h1>Кальянная <span>мята</span> Lounge</h1>
+                <div class="main-info-text">Качество и атмосфера вашего отдыха</div>
+                <div class="main-info-actions">
+                    <button class="button button-full hvr-skew-forward">Посмотреть меню</button>
+                    <button class="button button-transparent hvr-skew-backward">Забронировать столик</button>
+                </div>
+            </div>
+            <div class="main-image">
+                <img src="src/images/hookah-main.png" alt="Кальян">
+            </div>
+        </section>
+    </div>
+    <div class="main-smoke">
+        <img src="src/images/smoke/main-smoke.png" alt="Дым">
+    </div>
+</div>
+
+<section class="advantages">
+    <div class="container">
+        <h2>Почему нас выбирают?</h2>
+        <div class="advantages-circle">
+            <div class="advantage advantage-right-top">
+                <img src="src/images/advantage-star.png" alt="Звезда">
+            </div>
+            <div class="advantage advantage-right-bottom">
+                <img src="src/images/advantage-star.png" alt="Звезда">
+            </div>
+            <div class="advantage advantage-bottom">
+                <img src="src/images/advantage-star.png" alt="Звезда">
+            </div>
+            <div class="advantage advantage-left-bottom">
+                <img src="src/images/advantage-star.png" alt="Звезда">
+            </div>
+            <div class="advantage advantage-left-top">
+                <img src="src/images/advantage-star.png" alt="Звезда">
+            </div>
+        </div>
+        <div class="advantages-items">
+            <div class="advantages-item location wow animate__flipInX">Находимся <span>в самом центре</span> Нижнего Новгорода</div>
+            <div class="advantages-item sorts wow animate__flipInX">Более <span>100 видов</span> табака из разных стран</div>
+            <div class="advantages-item parking wow animate__flipInX">Собственная удобная <span>большая парковка</span></div>
+            <div class="advantages-item age wow animate__flipInX"><span>5 лет</span> в дымной индустрии</div>
+            <div class="advantages-item attractions wow animate__flipInX"><span>Sony PS</span> и <span>настольные игры</span> для душевного
+                отдыха
+            </div>
+        </div>
+        <div class="advantages-smoke">
+            <img src="src/images/smoke/advantages-smoke.png" alt="Дым">
+        </div>
+    </div>
+</section>
+
+<section class="mint-atmosphere">
+    <div class="container">
+        <h2>Почувствуй мятную атмосферу</h2>
+        <div class="slider">
+            <div class="slider-image">
+                <video controls autoplay muted loop>
+                    <source src="src/images/slider/slider-video.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает данное видео.
+                </video>
+            </div>
+            <div class="slider-image">
+                <img src="src/images/slider/slider-img-1.jpeg" alt="Кальян">
+            </div>
+            <div class="slider-image">
+                <img src="src/images/slider/slider-img-2.webp" alt="Помещение кальянной" id="main-slider-image">
+            </div>
+            <div class="slider-image">
+                <img src="src/images/slider/slider-img-3.jpeg" alt="Кальян">
+            </div>
+            <div class="slider-image">
+                <img src="src/images/slider/slider-img-4.webp" alt="Помещение кальянной">
+            </div>
+        </div>
+        <div class="slider-mint"></div>
+    </div>
+</section>
+
+<section class="menu">
+    <h2>Наше меню</h2>
+    <div class="menu-container">
+        <div class="menu-items">
+            <h3>Мята lounge</h3>
+            <div class="menu-products">
+                <fieldset class="product cheapest wow animate__bounceInLeft">
+                    <legend class="product-price">900 ₽</legend>
+                    <div class="product-description">Sherbe Adalya Afzal</div>
+                </fieldset>
+                <fieldset class="product wow animate__bounceInRight">
+                    <legend class="product-price">1 100 ₽</legend>
+                    <div class="product-description">Darkside Fumari Nakhla Tangiers</div>
+                </fieldset>
+                <fieldset class="product wow animate__bounceInLeft">
+                    <legend class="product-price">1 400 ₽</legend>
+                    <div class="product-description">Мохито Баунти Фараон Дамский</div>
+                </fieldset>
+                <fieldset class="product wow animate__bounceInRight">
+                    <legend class="product-price">1 700 ₽</legend>
+                    <div class="product-description">Яблоко Апельсин Грейпфрут</div>
+                </fieldset>
+                <fieldset class="product wow animate__bounceInLeft">
+                    <legend class="product-price">2 000 ₽</legend>
+                    <div class="product-description">Кокос Ананас</div>
+                </fieldset>
+                <fieldset class="product wow animate__bounceInRight">
+                    <legend class="product-price">3 000 ₽</legend>
+                    <div class="product-description">Фирменный кальян мята</div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="menu-image">
+            <img src="src/images/menu-red-hookah.png" alt="Красный кальян">
+        </div>
+        <div class="menu-top-smoke">
+            <img src="src/images/smoke/menu-top-smoke.png" alt="Дым">
+        </div>
+        <div class="menu-bottom-smoke">
+            <img src="src/images/smoke/menu-bottom-smoke.png" alt="Дым">
+        </div>
+    </div>
+    <div class="menu-smoke">
+        <img src="src/images/smoke/menu-smoke.png" alt="Дым">
+    </div>
+</section>
+
+<section class="halls">
+    <div class="container">
+        <h2>Наши залы</h2>
+        <div class="halls-items">
+            <div class="halls-item group wow animate__rotateInDownLeft">
+                <div class="halls-item-info">
+                    <div class="halls-item-info-header">Для больших компаний</div>
+                    <div class="halls-item-info-text">
+                        Что может быть лучше, чем проводить время в шумной и дружной компании? Правильно, проводить
+                        время в отдельном зале! VIP комната или lounge зона, выбор за вами!
+                    </div>
+                </div>
+                <div class="halls-item-icon">
+                    <img src="src/images/group-icon.png" alt="Иконка группы">
+                </div>
+            </div>
+            <div class="halls-item parties wow animate__rotateInDownRight">
+                <div class="halls-item-info">
+                    <div class="halls-item-info-header">Банкеты и дни рождения</div>
+                    <div class="halls-item-info-text">
+                        Праздник это к нам. Ведь у нас любое важное событие становится
+                        не только веселым, но и выгодным для вас!
+                    </div>
+                </div>
+                <div class="halls-item-icon">
+                    <img src="src/images/balloons-icon.png" alt="Иконка шариков">
+                </div>
+            </div>
+            <div class="halls-item ps5 wow animate__rotateInDownLeft">
+                <div class="halls-item-info">
+                    <div class="halls-item-info-header">Игровая зона PS5</div>
+                    <div class="halls-item-info-text">
+                        Погрузитесь в мир консольных баталий на качественном уровне! Незабываемые впечатления и все
+                        новые игры ждут вас!
+                    </div>
+                </div>
+                <div class="halls-item-icon">
+                    <img src="src/images/joystick-icon.png" alt="Иконка контроллера">
+                </div>
+            </div>
+            <div class="halls-item dates wow animate__rotateInDownRight">
+                <div class="halls-item-info">
+                    <div class="halls-item-info-header">Место для свидания</div>
+                    <div class="halls-item-info-text">
+                        Пожалуй, лучший подарок для любимого человека. Ощущение праздника романтики окружит вас
+                        мгновенно, как только вы зайдете.
+                    </div>
+                </div>
+                <div class="halls-item-icon">
+                    <img src="src/images/heart-icon.png" alt="Иконка сердца">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="joystick-background">
+        <img src="src/images/halls-background.png" alt="Контроллер">
+    </div>
+    <div class="ps5-smoke">
+        <img src="src/images/smoke/ps5-smoke.png" alt="Дым">
+    </div>
+</section>
+
+<section class="order">
+    <div class="container">
+        <h2>Бронирование столика</h2>
+        <div class="order-secondary-header">
+            Заполните форму и с вами свяжется менеджер для подтверждения брони
+        </div>
+        <form>
+            <label class="input-block">
+                <input type="text" placeholder="Ваше имя" class="input" id="name-input">
+            </label>
+            <div class='form-error-message' id="name-error-message">Укажите ваше имя</div>
+            <label class="input-block">
+                <input type="tel" placeholder="+7 (___) ___ - __ - __" class="input" id="phone-input">
+            </label>
+            <div class='form-error-message' id="phone-error-message">Укажите ваш номер телефона</div>
+            <div class='form-error-message' id="phone-incorrect-error-message">Номер телефона указан неверно</div>
+            <label class="input-block">
+                <select name="Время брони" id="time-input">
+                    <option value="unselected" disabled selected>Выберите время</option>
+                    <option value="22:00">22:00</option>
+                    <option value="22:30">22:30</option>
+                    <option value="23:00">23:00</option>
+                    <option value="23:30">23:30</option>
+                    <option value="00:00">00:00</option>
+                    <option value="00:30">00:30</option>
+                    <option value="01:00">01:00</option>
+                    <option value="01:30">01:30</option>
+                </select>
+            </label>
+            <div class='form-error-message' id="time-error-message">Укажите время брони</div>
+            <div class="form-action wow animate__rubberBand">
+                <button type="button" class="button button-order hvr-wobble-bottom">Забронировать столик</button>
+            </div>
+            <div class="loader-block">
+                <div class="loader"></div>
+            </div>
+        </form>
+        <div class="ordered">
+            <div class="ordered-smoke-top">
+                <img src="src/images/smoke/ordered-smoke-top.png" alt="Дым">
+            </div>
+            <div class="ordered-action">
+                <a href="#" class="hvr-shrink">
+                    <svg fill="#ffffff" height="27px" width="27px" version="1.1" id="Capa_1"
+                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                         viewBox="0 0 460.775 460.775" xml:space="preserve">
+                        <path d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55
+                            c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55
+                            c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505
+                            c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55
+                            l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719
+                            c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"/>
+                    </svg>
+                </a>
+            </div>
+            <h2>Спасибо, что выбрали нас!</h2>
+            <div class="ordered-info">
+                <div class="ordered-info-heading">Столик забронирован.</div>
+                <div class="ordered-info-date">Дата: <span>date</span></div>
+                <div class="ordered-info-time">Время: <span>time</span></div>
+            </div>
+            <div class="ordered-text">В течение 10 минут с вами свяжется менеджер для подтверждения брони. Пожалуйста, ожидайте.</div>
+            <div class="ordered-smoke-bottom">
+                <img src="src/images/smoke/ordered-smoke-bottom.png" alt="Дым">
+            </div>
+        </div>
+
+        <div class="order-background">
+            <div class="order-background-shadow"></div>
+            <img src="src/images/Red-rings.png" alt="Фоновое изображение">
+        </div>
+    </div>
+    <div class="order-smoke">
+        <img src="src/images/smoke/order-smoke.png" alt="Дым">
+    </div>
+</section>
+
+<section class="reviews">
+    <div class="container">
+        <h2>Отзывы гостей</h2>
+        <div class="reviews-slider">
+            <div class="review">
+                <div class="review-user">
+                    <div class="review-avatar">
+                        <img src="src/images/avatars/avatar-1.png" alt="Аватар">
+                    </div>
+                    <div class="review-info">
+                        <div class="review-info-name">Сергей Калугин</div>
+                        <div class="review-info-status">постоянный гость</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Очень уютное заведение, прекрасные кальяны, очень клёвая чайная карта, отзывчивый персонал,
+                    прекрасная шаговая доступность от метро, собственная паркова.
+                </div>
+            </div>
+            <div class="review">
+                <div class="review-user">
+                    <div class="review-avatar">
+                        <img src="src/images/avatars/avatar-2.png" alt="Аватар">
+                    </div>
+                    <div class="review-info">
+                        <div class="review-info-name">Мария Синицына</div>
+                        <div class="review-info-status">постоянный гость</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Очень душевное, уютное место с прекрасной атмосферой! И, кстати,
+                    вполне адекватные цены!
+                </div>
+            </div>
+            <div class="review">
+                <div class="review-user">
+                    <div class="review-avatar">
+                        <img src="src/images/avatars/avatar-3.jpg" alt="Аватар">
+                    </div>
+                    <div class="review-info">
+                        <div class="review-info-name">Алексей Шевцов</div>
+                        <div class="review-info-status">постоянный гость</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Посетил кальянную вчера с друзьями, и нам всем очень понравилось. Кальяны здесь на высоте, а
+                    обслуживание просто великолепное. Особенно впечатлил ассортимент табака — каждый нашёл что-то по
+                    душе!
+                </div>
+            </div>
+            <div class="review">
+                <div class="review-user">
+                    <div class="review-avatar">
+                        <img src="src/images/avatars/avatar-4.jpg" alt="Аватар">
+                    </div>
+                    <div class="review-info">
+                        <div class="review-info-name">Павел Морозов</div>
+                        <div class="review-info-status">постоянный гость</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Отличное место для вечернего отдыха! Интерьер уютный, музыка не мешает общению. Пробовали несколько
+                    видов кальянов, и все были приготовлены идеально. Рекомендую!
+                </div>
+            </div>
+            <div class="review">
+                <div class="review-user">
+                    <div class="review-avatar">
+                        <img src="src/images/avatars/avatar-5.webp" alt="Аватар">
+                    </div>
+                    <div class="review-info">
+                        <div class="review-info-name">Оксана Белоусова</div>
+                        <div class="review-info-status">постоянный гость</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    В этой кальянной прекрасная атмосфера и дружелюбный персонал. Кальян был готов быстро, а вкус
+                    превзошел все ожидания. Цены тоже приятно удивили. Обязательно вернусь сюда снова.
+                </div>
+            </div>
+            <div class="review">
+                <div class="review-user">
+                    <div class="review-avatar">
+                        <img src="src/images/avatars/avatar-6.jpg" alt="Аватар">
+                    </div>
+                    <div class="review-info">
+                        <div class="review-info-name">Игорь Токач</div>
+                        <div class="review-info-status">постоянный гость</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Сервис на уровне, кальянные миксы — лучшие из
+                    тех, что я пробовал до этого. Ещё порадовал широкий выбор напитков. Здесь действительно знают, как
+                    создать настроение!
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-links">
+            <div class="footer-logo hvr-grow">
+                <a href="#">
+                    <img src="src/images/logo.png" alt="Логотип">
+                </a>
+            </div>
+            <div class="footer-rights">Все права защищены, <span>2021</span></div>
+            <div class="footer-links-actions">
+                <a href="https://web.telegram.org/a/" class="footer-link telegram">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                         viewBox="0 0 50 50">
+                        <path d="M 44.376953 5.9863281 C 43.889905 6.0076957 43.415817 6.1432497 42.988281 6.3144531 C 42.565113 6.4845113 40.128883 7.5243408 36.53125 9.0625 C 32.933617 10.600659 28.256963 12.603668 23.621094 14.589844 C 14.349356 18.562196 5.2382813 22.470703 5.2382812 22.470703 L 5.3046875 22.445312 C 5.3046875 22.445312 4.7547875 22.629122 4.1972656 23.017578 C 3.9185047 23.211806 3.6186028 23.462555 3.3730469 23.828125 C 3.127491 24.193695 2.9479735 24.711788 3.015625 25.259766 C 3.2532479 27.184511 5.2480469 27.730469 5.2480469 27.730469 L 5.2558594 27.734375 L 14.158203 30.78125 C 14.385177 31.538434 16.858319 39.792923 17.402344 41.541016 C 17.702797 42.507484 17.984013 43.064995 18.277344 43.445312 C 18.424133 43.635633 18.577962 43.782915 18.748047 43.890625 C 18.815627 43.933415 18.8867 43.965525 18.957031 43.994141 C 18.958531 43.994806 18.959437 43.99348 18.960938 43.994141 C 18.969579 43.997952 18.977708 43.998295 18.986328 44.001953 L 18.962891 43.996094 C 18.979231 44.002694 18.995359 44.013801 19.011719 44.019531 C 19.043456 44.030655 19.062905 44.030268 19.103516 44.039062 C 20.123059 44.395042 20.966797 43.734375 20.966797 43.734375 L 21.001953 43.707031 L 26.470703 38.634766 L 35.345703 45.554688 L 35.457031 45.605469 C 37.010484 46.295216 38.415349 45.910403 39.193359 45.277344 C 39.97137 44.644284 40.277344 43.828125 40.277344 43.828125 L 40.310547 43.742188 L 46.832031 9.7519531 C 46.998903 8.9915162 47.022612 8.334202 46.865234 7.7402344 C 46.707857 7.1462668 46.325492 6.6299361 45.845703 6.34375 C 45.365914 6.0575639 44.864001 5.9649605 44.376953 5.9863281 z M 44.429688 8.0195312 C 44.627491 8.0103707 44.774102 8.032983 44.820312 8.0605469 C 44.866523 8.0881109 44.887272 8.0844829 44.931641 8.2519531 C 44.976011 8.419423 45.000036 8.7721605 44.878906 9.3242188 L 44.875 9.3359375 L 38.390625 43.128906 C 38.375275 43.162926 38.240151 43.475531 37.931641 43.726562 C 37.616914 43.982653 37.266874 44.182554 36.337891 43.792969 L 26.632812 36.224609 L 26.359375 36.009766 L 26.353516 36.015625 L 23.451172 33.837891 L 39.761719 14.648438 A 1.0001 1.0001 0 0 0 38.974609 13 A 1.0001 1.0001 0 0 0 38.445312 13.167969 L 14.84375 28.902344 L 5.9277344 25.849609 C 5.9277344 25.849609 5.0423771 25.356927 5 25.013672 C 4.99765 24.994652 4.9871961 25.011869 5.0332031 24.943359 C 5.0792101 24.874869 5.1948546 24.759225 5.3398438 24.658203 C 5.6298218 24.456159 5.9609375 24.333984 5.9609375 24.333984 L 5.9941406 24.322266 L 6.0273438 24.308594 C 6.0273438 24.308594 15.138894 20.399882 24.410156 16.427734 C 29.045787 14.44166 33.721617 12.440122 37.318359 10.902344 C 40.914175 9.3649615 43.512419 8.2583658 43.732422 8.1699219 C 43.982886 8.0696253 44.231884 8.0286918 44.429688 8.0195312 z M 33.613281 18.792969 L 21.244141 33.345703 L 21.238281 33.351562 A 1.0001 1.0001 0 0 0 21.183594 33.423828 A 1.0001 1.0001 0 0 0 21.128906 33.507812 A 1.0001 1.0001 0 0 0 20.998047 33.892578 A 1.0001 1.0001 0 0 0 20.998047 33.900391 L 19.386719 41.146484 C 19.35993 41.068197 19.341173 41.039555 19.3125 40.947266 L 19.3125 40.945312 C 18.800713 39.30085 16.467362 31.5161 16.144531 30.439453 L 33.613281 18.792969 z M 22.640625 35.730469 L 24.863281 37.398438 L 21.597656 40.425781 L 22.640625 35.730469 z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com" class="footer-link instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                         viewBox="0 0 50 50">
+                        <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="footer-header-info">Информация</div>
+            <div class="info-link">
+                <a href="#" class="hvr-shrink info-link-menu">Меню</a>
+            </div>
+            <div class="info-link">
+                <a href="#" class="hvr-shrink info-link-halls">3-D тур по залам</a>
+            </div>
+            <div class="info-link">
+                <a href="#" class="hvr-shrink info-link-order">Бронирование столика</a>
+            </div>
+            <div class="info-link">
+                <a href="#" class="hvr-shrink info-link-contacts">Контакты</a>
+            </div>
+        </div>
+        <div class="footer-contacts">
+            <div class="footer-header-contacts">Контакты</div>
+            <div class="contacts-link tel hvr-buzz">
+                <a href="tel: +7 (964) 837-73-74">+7 (964) 837-73-74</a>
+            </div>
+            <div class="contacts-link location">
+                <a href="https://www.google.com/maps/place/Ulitsa+Il'inskaya,+3,+Nizhnij+Novgorod,+Nizhegorodskaya+oblast',+Russia,+603001/@56.3287303,43.9920764,17z/data=!3m1!4b1!4m6!3m5!1s0x4151d4364aa3afd5:0xd621f8fab5b78dc8!8m2!3d56.3287303!4d43.9946567!16s%2Fg%2F11bw3z9jj0?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D" class="hvr-backward">
+                    <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                         width="16px" height="16px" viewBox="0 0 466.583 466.582"
+                         xml:space="preserve">
+                            <g>
+                                <path d="M233.292,0c-85.1,0-154.334,69.234-154.334,154.333c0,34.275,21.887,90.155,66.908,170.834
+                                    c31.846,57.063,63.168,104.643,64.484,106.64l22.942,34.775l22.941-34.774c1.317-1.998,32.641-49.577,64.483-106.64
+                                    c45.023-80.68,66.908-136.559,66.908-170.834C387.625,69.234,318.391,0,233.292,0z M233.292,233.291c-44.182,0-80-35.817-80-80
+                                    s35.818-80,80-80c44.182,0,80,35.817,80,80S277.473,233.291,233.292,233.291z"/>
+                            </g>
+                        </svg>
+                    <span>Нижний Новгород, Ильинская улица, 3</span>
+                </a>
+            </div>
+            <div class="contacts-link time">Вс-Чт 12:00-02:00</div>
+            <div class="contacts-link time">Пт-Сб 12:00-06:00</div>
+        </div>
+    </div>
+</footer>
+
+<div class="footer-smoke">
+    <div class="footer-smoke-shadow"></div>
+    <img src="src/images/smoke/footer-smoke.png" alt="Дым">
+</div>
+
+<div class="bg-smoke">
+    <img src="src/images/smoke/bg-smoke.png" alt="Дым">
+</div>
+
+<div class="bg-smoke-right">
+    <img src="src/images/smoke/bg-smoke-right.png" alt="Дым">
+</div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="src/scripts/slick.min.js"></script>
+<script src="src/scripts/jquery.mask.min.js"></script>
+<script src="src/scripts/wow.min.js"></script>
+<script src="src/scripts/main.js"></script>
+
+</body>
+</html>
