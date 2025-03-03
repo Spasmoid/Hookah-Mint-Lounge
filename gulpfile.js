@@ -6,7 +6,6 @@ const path = require('path');
 const cssmin = require('gulp-clean-css');
 const rename = require('gulp-rename');
 const replace = require('gulp-replace');
-const minify = require('gulp-minify');
 
 gulp.task('less', function () {
     return gulp.src('./src/styles/main.less')
@@ -16,11 +15,4 @@ gulp.task('less', function () {
         .pipe(replace('../fonts', '../../src/fonts'))
         .pipe(replace('../images', '../../src/images'))
         .pipe(gulp.dest('./dist/css'));
-});
-
-gulp.task('js', function () {
-    return gulp.src('./src/scripts/main.js')
-        .pipe(minify())
-        .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('./dist/js'))
 });
